@@ -1,0 +1,21 @@
+Make Clone of this website 
+
+https://www.microsoft.com/en-pk/
+
+Objective: 
+Replicate the Microsoft Webiste using modern frontend technologies while ensuring responsiveness, accessibility, and pixel-perfect design. 
+Task Requirements: 
+Tech Stack: HTML, CSS (Tailwind or SCSS preferred), JavaScript (Vanilla or React). 
+Layout: Must closely resemble the latest Microsoft homepage, including: 
+• Navigation bar with dropdown menus. 
+0 
+Hero section with background image and call-to-action buttons. 
+Product showcase (Microsoft 365, Surface, Xbox, etc.). 
+Footer with links and social icons. 
+Responsiveness: Fully functional across desktop, and mobile views. 
+Accessibility: Use semantic HTML and proper alt text for images. 
+Interactivity: Implement at least one feature such as a carousel, hover effects, or modal pop-ups. 
+Bonus 
+FeatureNTERNSHIP PAKISTAN 
+Dark Mode toggle. 
+Animated transitions (GSAP, Framer Motion, or CSS animations). 

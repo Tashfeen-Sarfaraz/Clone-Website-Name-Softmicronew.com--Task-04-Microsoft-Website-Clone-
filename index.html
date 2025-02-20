@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoftMicronew</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">SoftMicronew</div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="support.html">Support</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button id="darkModeToggle">Dark Mode</button>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="hero">
+            <h1>Welcome to SoftMicronew</h1>
+            <p>Discover innovative technology solutions</p>
+            <button class="cta">Explore Now</button>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 SoftMicronew. All rights reserved.</p>
+    </footer>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #000000;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #0078D4;
+            padding: 15px;
+            color: white;
+        }
+        
+        ul {
+            list-style: none;
+            display: flex;
+            gap: 15px;
+        }
+        
+        a {
+            text-decoration: none;
+            color: white;
+        }
+        
+        .hero {
+            text-align: center;
+            padding: 50px;
+        }
+        
+        .cta {
+            background-color: #0078D4;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #f1f1f1;
+        }
+        
+        .dark-mode {
+            background-color: #000000;
+            color: #ffffff;
+        }
+    </style>
+    
+    <script>
+        document.getElementById('darkModeToggle').addEventListener('click', function() {
+            document.body.classList.toggle('dark-mode');
+        });
+    </script>
+</body>
+</html>
